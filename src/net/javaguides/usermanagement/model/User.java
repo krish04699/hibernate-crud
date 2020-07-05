@@ -16,7 +16,7 @@ import org.hibernate.annotations.OptimisticLockType;
  */
 
 @Entity
-@OptimisticLocking(type=OptimisticLockType.DIRTY)
+//@OptimisticLocking(type=OptimisticLockType.DIRTY)
 @Table(name="emp")
 public class User {
 	
